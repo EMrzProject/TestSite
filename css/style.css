@@ -29,6 +29,7 @@ margin: 30px;
   font-weight: normal;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
 }
 
 .main-text {
@@ -52,7 +53,6 @@ margin: 10px;
 background: chocolate;
 font-weight: bold;
 font-size: 24px;
-
 color: rgb(244, 245, 244);
 width: 200px;
 height: 60px;
@@ -63,6 +63,20 @@ text-transform: uppercase;
 cursor: pointer;
 }
 
+.columnright {
+  width: 40%;
+  float: right;
+}
+
+.columnleft {
+  width: 40%;
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
 /* div {
   color: brown;
   background-color: coral;
@@ -71,8 +85,10 @@ cursor: pointer;
   font-size: 18px;
   font-family: 'Courier New', Courier, monospace;
   letter-spacing: 2px;
+  column-count: 4;
+  column-gap: 20px;
   
-}
+ }
 p {
   color: blue;
   font-size: 14px;
